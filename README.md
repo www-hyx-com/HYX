@@ -1,1 +1,1 @@
-# HYX
+# www.design-pattern.com

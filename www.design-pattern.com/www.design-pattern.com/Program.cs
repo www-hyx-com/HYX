@@ -10,7 +10,14 @@ namespace www.design_pattern.com
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Bridge.ISwitch fancy = new Bridge.Fancy();
+            fancy.ElectricalEquipment = new Bridge.Light();
+            fancy.On();
+            fancy.Off();
+
+            fancy.ElectricalEquipment = new Bridge.MacBook();
+            fancy.On();
+            fancy.Off();
         }
     }
 }

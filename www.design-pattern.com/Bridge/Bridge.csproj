@@ -41,7 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bridge.cs" />
+    <Compile Include="Fancy.cs" />
+    <Compile Include="IElectricalEquipment.cs" />
+    <Compile Include="ISwitch.cs" />
+    <Compile Include="Light.cs" />
+    <Compile Include="MacBook.cs" />
+    <Compile Include="Normal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bridge.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

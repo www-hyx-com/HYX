@@ -43,36 +43,129 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavior Pattern\Chain Of Responsibility\ChainOfResponsibility.cs" />
+    <Compile Include="Behavior Pattern\Command\Command.cs" />
+    <Compile Include="Behavior Pattern\Interpreter\Interpreter.cs" />
+    <Compile Include="Behavior Pattern\Iterator\Iterator.cs" />
+    <Compile Include="Behavior Pattern\Mediator\Mediator.cs" />
+    <Compile Include="Behavior Pattern\Memento\Memento.cs" />
+    <Compile Include="Behavior Pattern\Observer\Observer.cs" />
+    <Compile Include="Behavior Pattern\State\State.cs" />
+    <Compile Include="Behavior Pattern\Strategy\Strategy.cs" />
+    <Compile Include="Behavior Pattern\Template Method\TemplateMethod.cs" />
+    <Compile Include="Behavior Pattern\Visitor\Visitor.cs" />
+    <Compile Include="Creational Pattern\Abstract Factory\AbstractFactory.cs" />
+    <Compile Include="Creational Pattern\Builder\Builder.cs" />
+    <Compile Include="Creational Pattern\Factory Method\FactoryMethod.cs" />
+    <Compile Include="Creational Pattern\Prototype\Prototype.cs" />
+    <Compile Include="Creational Pattern\Singleton\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structured Pattern\Adapter\Adapter.cs" />
+    <Compile Include="Structured Pattern\Bridge\Bridge.cs" />
+    <Compile Include="Structured Pattern\Composite\Composite.cs" />
+    <Compile Include="Structured Pattern\Decorator\Decorator.cs" />
+    <Compile Include="Structured Pattern\Facade\Facade.cs" />
+    <Compile Include="Structured Pattern\Flyweight\Flyweight.cs" />
+    <Compile Include="Structured Pattern\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Behavior Pattern\Chain Of Responsibility\" />
-    <Folder Include="Behavior Pattern\Command\" />
-    <Folder Include="Behavior Pattern\Interpreter\" />
-    <Folder Include="Behavior Pattern\Iterator\" />
-    <Folder Include="Behavior Pattern\Mediator\" />
-    <Folder Include="Behavior Pattern\Memento\" />
-    <Folder Include="Behavior Pattern\Observer\" />
-    <Folder Include="Behavior Pattern\State\" />
-    <Folder Include="Behavior Pattern\Strategy\" />
-    <Folder Include="Behavior Pattern\Template Method\" />
-    <Folder Include="Behavior Pattern\Visitor\" />
-    <Folder Include="Creational Pattern\Abstract Factory\" />
-    <Folder Include="Creational Pattern\Builder\" />
-    <Folder Include="Creational Pattern\Factory Method\" />
-    <Folder Include="Creational Pattern\Prototype\" />
-    <Folder Include="Creational Pattern\Singleton\" />
-    <Folder Include="Structured Pattern\Adapter\" />
-    <Folder Include="Structured Pattern\Bridge\" />
-    <Folder Include="Structured Pattern\Composite\" />
-    <Folder Include="Structured Pattern\Decorator\" />
-    <Folder Include="Structured Pattern\Facade\" />
-    <Folder Include="Structured Pattern\Flyweight\" />
-    <Folder Include="Structured Pattern\Proxy\" />
+    <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj">
+      <Project>{fce3ba0a-4b43-4d15-bed3-60bf36743315}</Project>
+      <Name>AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Adapter\Adapter.csproj">
+      <Project>{7433ebf3-30af-4da3-b80f-96312c4ec31d}</Project>
+      <Name>Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bridge\Bridge.csproj">
+      <Project>{38674c8b-0eab-4b46-8859-3afa7dbbd848}</Project>
+      <Name>Bridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Builder\Builder.csproj">
+      <Project>{9e14a7e2-0c12-478a-96d8-04b90e8da41e}</Project>
+      <Name>Builder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chain Of Responsibility\ChainOfResponsibility.csproj">
+      <Project>{2612dc56-c59b-42d1-a0d3-be21561b1022}</Project>
+      <Name>ChainOfResponsibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Command\Command.csproj">
+      <Project>{61250540-af70-49dd-8ea0-1b7b57a68cc4}</Project>
+      <Name>Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Composite\Composite.csproj">
+      <Project>{13973ae3-b804-4ca5-97cc-be324489670a}</Project>
+      <Name>Composite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Decorator\Decorator.csproj">
+      <Project>{3fe4f7ae-77b3-48ed-a8e4-3bc5e45a5ffd}</Project>
+      <Name>Decorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facade\Facade.csproj">
+      <Project>{22cdc856-b0e0-46d6-9e7a-274801456f6e}</Project>
+      <Name>Facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
+      <Project>{c852f7c1-5792-46db-85e3-5849fb5f2e56}</Project>
+      <Name>FactoryMethod</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Flyweight\Flyweight.csproj">
+      <Project>{e9feb16d-38c5-4af7-9957-53eeebee353d}</Project>
+      <Name>Flyweight</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interpreter\Interpreter.csproj">
+      <Project>{d284a02e-5e34-4a0c-bfba-fd3e972412df}</Project>
+      <Name>Interpreter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Iterator\Iterator.csproj">
+      <Project>{75a915bd-232b-4c1c-b2ab-bad53a82124a}</Project>
+      <Name>Iterator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mediator\Mediator.csproj">
+      <Project>{9e8ad188-f0c5-4b38-a731-fb4bd1794b12}</Project>
+      <Name>Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Memento\Memento.csproj">
+      <Project>{6c968276-4180-40cd-b237-e54d4990e3ef}</Project>
+      <Name>Memento</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Observer\Observer.csproj">
+      <Project>{5a54eedb-c857-4525-889c-6593b3b83001}</Project>
+      <Name>Observer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prototype\Prototype.csproj">
+      <Project>{d2b7ca76-4c67-42a3-b2a5-8a3b6efc7cff}</Project>
+      <Name>Prototype</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Proxy\Proxy.csproj">
+      <Project>{a8dad768-8223-4273-9740-b9604ba5b168}</Project>
+      <Name>Proxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Singleton\Singleton.csproj">
+      <Project>{d4508ffc-f1af-440c-a406-9ceb14dce8ff}</Project>
+      <Name>Singleton</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\State\State.csproj">
+      <Project>{958becb8-59a6-4674-b469-c9b3b5301876}</Project>
+      <Name>State</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Strategy\Strategy.csproj">
+      <Project>{486c8ba7-1f44-47d4-a6da-e88c3ebca6e1}</Project>
+      <Name>Strategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TemplateMethod\TemplateMethod.csproj">
+      <Project>{de1d9adc-6b5f-4fd3-b3f2-254079e001bd}</Project>
+      <Name>TemplateMethod</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Visitor\Visitor.csproj">
+      <Project>{76fa07ee-ccf4-44fc-aa07-743291328aac}</Project>
+      <Name>Visitor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

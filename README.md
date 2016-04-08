@@ -1,6 +1,6 @@
 # www.design-pattern.com
 
-## 面向对象设计原则
+## 面向对象设计原则（OOD SOLID）
 
 ### 一、单一职责原则（Single Response Principle，SRP）
 

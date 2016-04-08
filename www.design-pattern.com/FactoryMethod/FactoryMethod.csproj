@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3790220E-5F86-4B13-BB16-69C4CC7D40DE}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{C852F7C1-5792-46DB-85E3-5849FB5F2E56}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>www.design_pattern.com</RootNamespace>
-    <AssemblyName>www.design-pattern.com</AssemblyName>
+    <RootNamespace>FactoryMethod</RootNamespace>
+    <AssemblyName>FactoryMethod</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,36 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="FactoryMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behavior Pattern\Chain Of Responsibility\" />
-    <Folder Include="Behavior Pattern\Command\" />
-    <Folder Include="Behavior Pattern\Interpreter\" />
-    <Folder Include="Behavior Pattern\Iterator\" />
-    <Folder Include="Behavior Pattern\Mediator\" />
-    <Folder Include="Behavior Pattern\Memento\" />
-    <Folder Include="Behavior Pattern\Observer\" />
-    <Folder Include="Behavior Pattern\State\" />
-    <Folder Include="Behavior Pattern\Strategy\" />
-    <Folder Include="Behavior Pattern\Template Method\" />
-    <Folder Include="Behavior Pattern\Visitor\" />
-    <Folder Include="Creational Pattern\Abstract Factory\" />
-    <Folder Include="Creational Pattern\Builder\" />
-    <Folder Include="Creational Pattern\Factory Method\" />
-    <Folder Include="Creational Pattern\Prototype\" />
-    <Folder Include="Creational Pattern\Singleton\" />
-    <Folder Include="Structured Pattern\Adapter\" />
-    <Folder Include="Structured Pattern\Bridge\" />
-    <Folder Include="Structured Pattern\Composite\" />
-    <Folder Include="Structured Pattern\Decorator\" />
-    <Folder Include="Structured Pattern\Facade\" />
-    <Folder Include="Structured Pattern\Flyweight\" />
-    <Folder Include="Structured Pattern\Proxy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

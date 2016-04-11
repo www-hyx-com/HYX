@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iterator
+namespace www.design_pattern.com.behavior_pattern
 {
+    /// <summary>
+    /// 迭代器模式
+    /// </summary>
     public class Iterator
     {
     }

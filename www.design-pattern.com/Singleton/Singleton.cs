@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton
+namespace www.design_pattern.com.creational_pattern
 {
+    /// <summary>
+    /// 单例模式
+    /// </summary>
     public class Singleton
     {
 

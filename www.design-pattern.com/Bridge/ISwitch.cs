@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Bridge
+namespace www.design_pattern.com.structured_pattern
 {
     public interface ISwitch
     {

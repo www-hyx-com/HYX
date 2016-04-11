@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Observer
+namespace www.design_pattern.com.behavior_pattern
 {
+    /// <summary>
+    /// 观察者模式
+    /// </summary>
     public class Observer
     {
     }

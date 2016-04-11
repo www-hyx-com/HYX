@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.design-pattern.com", "www.design-pattern.com\www.design-pattern.com.csproj", "{3790220E-5F86-4B13-BB16-69C4CC7D40DE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Structured Pattern", "4.Structured Pattern", "{7514CC3E-3F62-43CD-8038-9DC8FA9E471E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structured Pattern", "Structured Pattern", "{7514CC3E-3F62-43CD-8038-9DC8FA9E471E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Creational Pattern", "3.Creational Pattern", "{C1EA4180-9106-43C6-AA95-3A5B8CC53054}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern", "Creational Pattern", "{C1EA4180-9106-43C6-AA95-3A5B8CC53054}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavior Pattern", "Behavior Pattern", "{A41A081D-7F57-4A77-90DE-519244E78FC5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Behavior Pattern", "2.Behavior Pattern", "{A41A081D-7F57-4A77-90DE-519244E78FC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Chain Of Responsibility\ChainOfResponsibility.csproj", "{2612DC56-C59B-42D1-A0D3-BE21561B1022}"
 EndProject
@@ -57,16 +55,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{A8DAD768-8223-4273-9740-B9604BA5B168}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.DesignPattern", "1.DesignPattern", "{82859CE3-DBF1-4C3B-8D0F-8AB08B0503C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{D693F9D4-AB2C-4EC1-B6DC-00F4B90EBABA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3790220E-5F86-4B13-BB16-69C4CC7D40DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3790220E-5F86-4B13-BB16-69C4CC7D40DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3790220E-5F86-4B13-BB16-69C4CC7D40DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3790220E-5F86-4B13-BB16-69C4CC7D40DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2612DC56-C59B-42D1-A0D3-BE21561B1022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2612DC56-C59B-42D1-A0D3-BE21561B1022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2612DC56-C59B-42D1-A0D3-BE21561B1022}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -159,6 +157,10 @@ Global
 		{A8DAD768-8223-4273-9740-B9604BA5B168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8DAD768-8223-4273-9740-B9604BA5B168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8DAD768-8223-4273-9740-B9604BA5B168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D693F9D4-AB2C-4EC1-B6DC-00F4B90EBABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D693F9D4-AB2C-4EC1-B6DC-00F4B90EBABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D693F9D4-AB2C-4EC1-B6DC-00F4B90EBABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D693F9D4-AB2C-4EC1-B6DC-00F4B90EBABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -187,5 +189,6 @@ Global
 		{22CDC856-B0E0-46D6-9E7A-274801456F6E} = {7514CC3E-3F62-43CD-8038-9DC8FA9E471E}
 		{E9FEB16D-38C5-4AF7-9957-53EEEBEE353D} = {7514CC3E-3F62-43CD-8038-9DC8FA9E471E}
 		{A8DAD768-8223-4273-9740-B9604BA5B168} = {7514CC3E-3F62-43CD-8038-9DC8FA9E471E}
+		{D693F9D4-AB2C-4EC1-B6DC-00F4B90EBABA} = {82859CE3-DBF1-4C3B-8D0F-8AB08B0503C8}
 	EndGlobalSection
 EndGlobal

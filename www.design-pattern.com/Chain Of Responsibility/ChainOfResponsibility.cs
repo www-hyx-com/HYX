@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chain_Of_Responsibility
+namespace www.design_pattern.com.behavior_pattern
 {
+    /// <summary>
+    /// 职责链模式
+    /// </summary>
     public class ChainOfResponsibility
     {
     }

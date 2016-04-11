@@ -15,7 +15,7 @@ namespace www.design_pattern.com.structured_pattern
         /// </summary>
         public void PowerOff()
         {
-            Console.WriteLine("关闭灯电源.");
+            Console.WriteLine("关闭电灯泡电源.");
         }
 
         /// <summary>
@@ -23,7 +23,7 @@ namespace www.design_pattern.com.structured_pattern
         /// </summary>
         public void PowerOn()
         {
-            Console.WriteLine("打开灯电源.");
+            Console.WriteLine("打开电灯泡电源.");
         }
     }
 }

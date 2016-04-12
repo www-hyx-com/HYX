@@ -41,7 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory.cs" />
+    <Compile Include="AbstractProductA.cs" />
+    <Compile Include="AbstractProductB.cs" />
+    <Compile Include="AbstractProductFactory.cs" />
+    <Compile Include="ConcreteProductAFactory.cs" />
+    <Compile Include="ConcreteProductBFactory.cs" />
+    <Compile Include="ProductA.cs" />
+    <Compile Include="ProductB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AbstractFactory.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

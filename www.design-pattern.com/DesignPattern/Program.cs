@@ -17,7 +17,7 @@ namespace www.design_pattern.com.design_pattern
         /// <param name="args">参数集</param>
         public static void Main(string[] args)
         {
-            structured_pattern.Bridge.Invoke();
+            creational_pattern.AbstractFactory.Invoke();
         }
     }
 }

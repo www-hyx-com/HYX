@@ -13,30 +13,23 @@ namespace www.design_pattern.com.design_pattern.creational_pattern
     public class Singleton
     {
         /// <summary>
-        /// 调用单线程单例模式
+        /// 调用单例模式
         /// </summary>
         /// <returns></returns>
-        public SingleThreadSingleton InvokeSingleThreadSingleton()
+        public static void Invoke()
         {
-            return SingleThreadSingleton.Instance;
-        }
-
-        /// <summary>
-        /// 调用多线程单例模式
-        /// </summary>
-        /// <returns></returns>
-        public MultThreadSingleton InvokeMultThreadSingleton()
-        {
-            return MultThreadSingleton.Instance;
-        }
-
-        /// <summary>
-        /// 调用静态单例模式
-        /// </summary>
-        /// <returns></returns>
-        public StaticSingleton InvokeStaticSingleton()
-        {
-            return StaticSingleton.Instance;
+            Console.WriteLine("----------创建单线程单例模式开始----------");
+            Console.WriteLine(SingleThreadSingleton.Instance.GetType().Name);
+            Console.WriteLine("----------创建单线程单例模式结束----------");
+            Console.WriteLine();
+            Console.WriteLine("----------创建多线程单例模式开始----------");
+            Console.WriteLine(MultThreadSingleton.Instance.GetType().Name);
+            Console.WriteLine("----------创建多线程单例模式结束----------");
+            Console.WriteLine();
+            Console.WriteLine("----------创建静态单例模式开始----------");
+            Console.WriteLine(StaticSingleton.Instance.GetType().Name);
+            Console.WriteLine("----------创建静态单例模式结束----------");
+            Console.WriteLine();
         }
     }
 }

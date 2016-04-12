@@ -14,7 +14,7 @@ namespace www.design_pattern.com.design_pattern
         /// <summary>
         /// 程序入口
         /// </summary>
-        /// <param name="args"></param>
+        /// <param name="args">参数集</param>
         public static void Main(string[] args)
         {
             structured_pattern.Bridge.Invoke();
